@@ -1,0 +1,6 @@
+../Core/Src/main.c:82:5:main	16	static
+../Core/Src/main.c:163:6:SystemClock_Config	88	static
+../Core/Src/main.c:208:9:CheckFirmwareUpdateRequest	4	static
+../Core/Src/main.c:221:6:Flag_UpdateFOTA	16	static
+../Core/Src/main.c:231:13:JumpToMain	48	static,ignoring_inline_asm
+../Core/Src/main.c:281:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,7 @@
+../Core/Src/flash_if.c:8:17:GetSector	24	static
+../Core/Src/flash_if.c:64:6:Flash_If_Init	8	static
+../Core/Src/flash_if.c:72:6:Flash_If_Erase	32	static
+../Core/Src/flash_if.c:98:10:Flash_If_Program_Word	40	static
+../Core/Src/flash_if.c:140:6:Flash_If_EraseProgram_Word	24	static
+../Core/Src/flash_if.c:147:10:Flash_If_Program_SingleWord	24	static
+../Core/Src/flash_if.c:162:10:Flash_If_ReadWord	16	static

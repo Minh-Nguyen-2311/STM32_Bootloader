@@ -1,0 +1,46 @@
+!SESSION 2025-09-21 20:57:41.037 -----------------------------------------------
+eclipse.buildId=Version 1.10.0
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\Admin\Desktop\Bootloader\BootFirmware\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Admin\Desktop\Bootloader\BootFirmware\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-21 20:57:46.234
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-21 20:57:46.296
+!MESSAGE Log4j initialized with config file C:\Users\Admin\Desktop\Bootloader\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-21 20:57:48.331
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-21 20:57:57.761
+!MESSAGE Indexed 'BootFirmware' (107 sources, 296 headers) in 7.8 sec: 15,159 declarations; 64,494 references; 6 unresolved inclusions; 898 syntax errors; 1,401 unresolved names (1.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-21 20:58:08.594
+!MESSAGE Indexed 'MainFirmware' (952 sources, 410 headers) in 6.81 sec: 42,035 declarations; 275,981 references; 64 unresolved inclusions; 686 syntax errors; 777 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-21 21:02:05.144
+!MESSAGE Indexed 'MainFirmware' (115 sources, 341 headers) in 6.26 sec: 23,023 declarations; 88,534 references; 9 unresolved inclusions; 293 syntax errors; 643 unresolved names (0.57%)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2025-09-21 21:04:16.822
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element flash_if.h does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:583)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-09-21 21:04:16.824
+!MESSAGE Element flash_if.h does not exist.
